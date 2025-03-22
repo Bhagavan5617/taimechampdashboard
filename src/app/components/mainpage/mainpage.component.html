@@ -1,0 +1,183 @@
+<div class="bg-[#fff] h-full w-full py-2 mt-2 flex flex-col">
+  <!-- Tabs -->
+  <div class="flex flex-col gap-1 bg-[#F4F8F9]">
+    <div class="flex space-x-2 border-b px-2 pt-1">
+      <ul class="flex border-[#C1E3E4] border-b-2">
+        <li class="w-[190px] mr-2">
+          <button
+            class="flex items-center justify-center gap-2 px-4 py-2 text-[#4CB2B2] border-b-4 border-white bg-white rounded-tl-[20px] rounded-tr-[20px] w-full relative before:content-[''] before:absolute before:left-[8px] before:h-[20px] before:w-[5px] before:bg-white before:rounded-r-[10px] hover:text-[#2E8F8F]/60"
+          >
+            <i class="ri-line-chart-line"></i> Trends
+          </button>
+        </li>
+
+        <li class="w-[190px] mr-2">
+          <button
+            class="flex items-center justify-center gap-2 px-4 py-2 text-[#4CB2B2] hover:opacity-90 border-b-4 bg-white border-white rounded-tl-[20px] rounded-tr-[20px] w-full relative before:content-[''] before:absolute before:left-[8px] before:h-[20px] before:w-[5px] before:bg-white before:rounded-r-[10px] hover:text-[#2E8F8F]/60"
+          >
+            <i class="ri-time-line"></i> Time Line
+          </button>
+        </li>
+
+        <li class="w-[190px]">
+          <button
+            class="flex items-center justify-center gap-2 px-4 py-2 border-b-4 text-white border-[#4CB2B2] bg-[#7EC7C7] rounded-tl-[20px] rounded-tr-[20px] w-full relative before:content-[''] before:absolute before:left-[8px] before:h-[20px] before:w-[5px] before:bg-white before:rounded-r-[10px] hover:text-[#2E8F8F]/60"
+          >
+            <i class="ri-settings-3-line"></i> Configure Apps
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Subtabs -->
+    <div class="flex space-x-4 mt-1 text-gray-600 border-[#C1E3E4] border-b-2">
+      <ul class="flex space-x-4 text-gray-600">
+        <li class="min-w-[6.25rem] w-[10rem]">
+          <button
+            class="flex justify-center pb-2 border-b-[3px] border-[#4cb2b2] font-[500] w-full text-[14px] hover:text-[#2E8F8F]"
+          >
+            Productivity Profile
+          </button>
+        </li>
+        <li class="min-w-[6.25rem] w-[10rem]">
+          <button
+            class="flex justify-center pb-2 border-b-2 border-transparent hover:border-[#4cb2b2] w-full text-[14px] hover:text-[#2E8F8F] font-[400]"
+          >
+            Mapping
+          </button>
+        </li>
+        <li class="min-w-[6.25rem] w-[10rem]">
+          <button
+            class="flex justify-center pb-2 border-b-2 border-transparent hover:border-[#4cb2b2] w-full text-[14px] hover:text-[#2E8F8F] font-[400]"
+          >
+            Application Groups
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="flex mt-2 h-full w-full px-2">
+    <!-- Left Panel -->
+    <div class="w-[35%] bg-white shadow rounded">
+      <div class="p-2">
+        <div class="flex items-center border rounded">
+          <div class="px-4 py-1.5 bg-gray-200 border-r border-gray-300">
+            <i class="ri-search-line text-gray-500"></i>
+          </div>
+          <input
+            type="text"
+            placeholder="Search"
+            class="ml-2 outline-none w-full p-1"
+          />
+          <div class="flex">
+            <a
+              class="flex items-center bg-[#4cb2b2] text-white px-3 py-[6.5px] rounded-r-[3px]"
+            >
+              <i class="ri-add-line"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mt-2 text-[#4cb2b2] font-bold border border-x-0 bg-[#F4F8F9] border-y-gray-300 py-3 px-2"
+      >
+        Default <i class="ri-information-line text-gray-400"></i>
+      </div>
+    </div>
+    <div class="w-full bg-white shadow rounded ml-4 flex flex-col">
+      <div class="pt-2 bg-[#F4F8F9]">
+        <div
+          class="flex space-x-4 mt-1 text-gray-600 border-[#C1E3E4] border-b-2 bg-[#F4F8F9]"
+        >
+          <ul class="flex space-x-4 text-gray-600">
+            <li class="min-w-[6.25rem] w-[10rem]">
+              <button
+                class="flex justify-center pb-2 border-b-[3px] border-[#4cb2b2] font-[500] w-full text-[14px] hover:text-[#2E8F8F]"
+              >
+                Productivity Profile
+              </button>
+            </li>
+            <li class="min-w-[6.25rem] w-[10rem]">
+              <button
+                class="flex justify-center pb-2 border-b-2 border-transparent hover:border-[#4cb2b2] w-full text-[14px] hover:text-[#2E8F8F] font-[400]"
+              >
+                Mapping
+              </button>
+            </li>
+            <li class="min-w-[6.25rem] w-[10rem]">
+              <button
+                class="flex justify-center pb-2 border-b-2 border-transparent hover:border-[#4cb2b2] w-full text-[14px] hover:text-[#2E8F8F] font-[400]"
+              >
+                Application Groups
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex flex-col h-full w-full mt-2">
+        <div>
+          <div
+            class="border-b bg-[#F0F0F0] py-[5px] text-left flex items-center rounded-t-[10px]"
+          >
+            <div class="p-2 w-[33%] text-[14px] font-semibold text-black">
+              Application Group
+            </div>
+            <div class="p-2 w-[33%] text-[14px] font-semibold text-black">
+              Idle Time Configuration
+            </div>
+            <div class="p-2 w-[33%]">
+              <div class="flex justify-end">
+                <input
+                  type="text"
+                  placeholder="Search"
+                  class="border rounded px-3 py-1 outline-none"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="relative w-full h-full">
+          <div
+            class="absolute w-full h-full inset-0 custom-scrollbar group overflow-y-auto"
+          >
+            <table class="w-full border-collapse table-fixed">
+              <tbody>
+                <tr *ngFor="let app of apps" class="border-b">
+                  <td class="p-2">
+                    <label
+                      class="font-[400] text-black text-[14px] hover:text-[#2E8F8F]"
+                      >{{ app.name }}</label
+                    >
+                  </td>
+                  <td class="p-2">
+                    <div>
+                      <label
+                        class="font-[400] text-black text-[14px] hover:text-[#2E8F8F]"
+                        >Default</label
+                      >
+                    </div>
+                  </td>
+                  <td class="p-2 flex gap-2">
+                    <button
+                      class="px-3 py-1 rounded border border-[rgba(0,0,0,0.15)] text-[13px] font-[400] text-[rgba(0,0,0,0.87)] hover:border-green-500 hover:text-green-600"
+                      [ngClass]="{ 'bg-green-500 !text-white': app.active }"
+                    >
+                      PRODUCTIVE
+                    </button>
+                    <button
+                      class="px-3 py-1 rounded border border-[rgba(0,0,0,0.15)] text-[13px] font-[400] text-[rgba(0,0,0,0.87)] hover:border-orange-500 hover:text-orange-500"
+                    >
+                      NON-PRODUCTIVE
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
