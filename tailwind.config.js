@@ -2,7 +2,7 @@
 const plugin = require("tailwindcss/plugin");
 
 module.exports = {
-  content: ["./src/**/*.{html,ts}"],
+  content: ["./src/**/*.{html,ts}","./node_modules/@snovasys/snova-tailwind-uikit/esm2022/lib/**/*.{html,mjs}"],
   theme: {
     extend: {
       fontFamily: {

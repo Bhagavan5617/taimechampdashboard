@@ -1,10 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-
+import { SmartButtonComponent} from '@snovasys/snova-tailwind-uikit';
 @Component({
   selector: 'app-mainpage',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule,SmartButtonComponent],
   templateUrl: './mainpage.component.html',
   styleUrl: './mainpage.component.css'
 })
